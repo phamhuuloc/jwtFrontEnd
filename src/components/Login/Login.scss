@@ -1,0 +1,38 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  padding-top: 20px;
+  .content-left {
+    margin-top: 50px;
+    .brand {
+      font-size: 40px;
+      font-weight: 500;
+      color: #2e9ccf;
+    }
+    .detail {
+      color: #333;
+      font-size: 20px;
+    }
+  }
+  .content-right {
+    -webkit-box-shadow: -1px 1px 8px 9px rgba(0, 0, 0, 0.13);
+    box-shadow: -1px 1px 8px 9px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    background-color: #fff;
+    .brand {
+      font-size: 20px;
+      font-weight: 500;
+      color: #2e9ccf;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .forgot-password {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
